@@ -1,0 +1,15 @@
+research_task:
+  description: >
+    Conduct a thorough research about {topic}
+    Make sure you find any interesting and relevant information given
+    the current context.
+  expected_output: >
+    A list with 10 questions of the most relevant information about {topic}
+  agent: researcher
+
+reporting_task:
+  description: >
+    Review the research findings and just create 10 questions for the quiz with their answers based on the research findings
+  expected_output: >
+    A list with 10 questions and their answers based on the research findings.
+  agent: reporting_analyst
